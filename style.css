@@ -1,6 +1,4 @@
-/*
-    DEMO STYLE
-*/
+
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
@@ -62,7 +60,7 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: grey;
     color: #fff;
     transition: all 0.3s;
 }
@@ -73,7 +71,8 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #343a40;
+    margin-bottom: 5px;
 }
 
 #sidebar ul.components {
@@ -183,3 +182,35 @@ a.article:hover {
         display: none;
     }
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form.inlinebutton input[type=text] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    float: left;
+    margin-left: 5px;
+    width: 75%;
+  }
+  
+  form.inlinebutton button {
+    float: left;
+    width: 20%;
+    padding-top: 10px;   
+    padding-bottom: 10px;
+    font-size: 17px;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+
+  
+
+  form.inlinebutton::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
